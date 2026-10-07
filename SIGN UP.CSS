@@ -1,0 +1,44 @@
+body {
+border: 10px solid teal;
+margin: 0;
+padding: 30px;
+background-color: teal;
+font-family: Arial, sans-serif;
+min-height: 100vh;
+}
+h1{
+text-align: center;
+
+}
+form {
+border: 5px solid goldenrod;
+margin: 30px auto;
+padding: 30px;
+background-color: goldenrod;
+width: 400px;
+border-radius: 15px;
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+input {
+border: 2px dotted black;
+margin: 10px 0 20px 0;
+padding: 12px;
+width: 90%;
+border-radius: 6px;
+font-size: 16px;
+box-sizing: border-box;
+}
+
+input:focus {
+outline: none;
+border: 2px solid teal;
+background-color: white;
+}
+
+label {
+color: white;
+font-family: "Times New Roman", serif;
+font-size: 18px;
+font-weight: bold;
+}
